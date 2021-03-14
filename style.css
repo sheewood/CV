@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+header, main, footer{
+    margin: 0 auto;
+}
+section{
+    margin: 1em;
+    padding: 1em;
+}
+article{
+    padding: 1em;
+}
+header{
+    padding: 2em;
+    text-align: center;
+    background-image: url(./img/tlo.jpg);
+    background-size: cover;
+    background-position: fixed;
+    color: white;
+}
+header section{
+    margin: 0 auto;
+    max-width: 640px;
+}
+header img{
+    max-width: 130px;
+    border-radius: 60%;
+}
+h1{
+    text-transform: uppercase;
+    margin: 1em 0;
+}
+p{
+    margin: 0;
+}
+main{
+    max-width: 1280px;
+}
+main section:not(:last-child){
+    border-bottom: 1px solid rgb(177, 169, 169);
+}
+span{
+    text-decoration: underline;
+    color: rgba(71, 70, 70, 0.719);
+}
+.education{
+    display: flex;
+    flex-wrap: wrap;
+}
+.education .school{
+    color: rgb(22, 123, 141);
+    flex:30%;
+    max-width: 30%;
+    
+}
+.education .description{
+    flex:70%;
+    max-width: 70%;
+}
+.education .description p{
+    padding-left: 3em;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills .column{
+    flex:50%;
+    max-width: 50%;
+}
+
+ul{
+    list-style-type: none;
+}
