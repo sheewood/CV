@@ -75,3 +75,7 @@ span{
 ul{
     list-style-type: none;
 }
+.education .description ul {
+    padding-left: 80px;
+    list-style-type: square;
+}
